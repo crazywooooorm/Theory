@@ -78,5 +78,31 @@ correction for that approximation is needed.
 approximation for the total rank statistic.
 
 ### Matched Pairs Randomization Test
-* Works for at least paired interval data, but as a permutation test, it 
+* Works for at least paired interval data, but as a permutation test, it
 doesn't need any assumptions about normality or homogeneity of variance.  
+
+## Two Independent Samples Case
+
+### Fisher Exact Test
+* Works for independent nominal data with binary output (2 by 2 case).
+* Gives the exact probability by hypergeometric distribution, but requires huge
+computation.
+* Sensitive to extreme cases, so sometimes we need Tocher's modification to
+decide whether we reject the null hypothesis or not. Tocher's modification
+actually makes Fisher Exact test the most powerful one-tailed test.
+
+### Chi-Squared Test for Independent Samples
+* Similar with Fisher Exact test, Chi-squared test works for independent nominal
+data, but it can handle more than 2 by 2 cases.
+* As we mentioned above, Chi-squared test has some requirements on expected
+frequencies. So in small sample size cases, Fisher Exact test is more common.
+
+### Median Test
+* Tests the difference between central tendencies of two independent samples.
+Works for at least ordinal data.
+* Null hypothesis is that two populations have the same median. We get the counts
+of below and above combined median in both groups and then apply a Fisher Exact
+test or a Chi-suqared test.
+
+### Mann-Whitney U Test
+* Works for at least ordinal data
