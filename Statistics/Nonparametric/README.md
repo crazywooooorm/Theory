@@ -106,4 +106,16 @@ of below and above combined median in both groups and then apply a Fisher Exact
 test or a Chi-suqared test.
 
 ### Mann-Whitney U Test
-* Works for at least ordinal data
+* Works for at least ordinal data. Focuses on the rank of samples.
+* When observations have ties, calculate the average U for all tie permutation.
+In large sample size cases, we can apply tie correction for the standard
+deviation.
+* Has a similar power with t-test and could be the most powerful nonparametric
+alternative for independet t-test.
+
+### Kolmogorov-Smirnov Two-Sample Test
+* Works for at least ordinal data and only focuses on the largest deviation
+between the cumulative distributions of two samples.
+* In a large sample case, the transformation of the largest deviation can be
+approximated to a Chi-square distribution.
+* Compared to Mann-Whitney U test, doesn't have a good way to deal with ties.
