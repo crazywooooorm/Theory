@@ -13,6 +13,6 @@ the data in different ways.
 
 #### Some examples:
 
-* Goodness of fit: Kolmogorov–Smirnov test
-* Rank statistic: Wilcoxon Signed-Rank Test
+* Goodness of fit: Kolmogorov–Smirnov test https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test
+* Rank statistic: Wilcoxon Signed-Rank Test https://onlinecourses.science.psu.edu/stat414/node/319/
 * Permutation test & Boostrap: http://www.mit.edu/~6.s085/notes/lecture5.pdf
