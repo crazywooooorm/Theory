@@ -21,13 +21,14 @@ have "absolute zero", so you can do multiply or divide operation on this scale.
 
 #### Pros
 * Doesn't depend on shape of distributions or other assumptions (assumptions
-of distribution are actually pretty difficult to meet in many case).
-* Works for small sample.
+of distribution are actually pretty difficult to meet in many cases).
+* Easy to apply.
 * Deals with data with different measurements.
 
 #### Cons
 * Might lose power and information when the assumptions on distributions are
 actually met.
+* Needs some approximation in big sample cases.
 
 ## One-Sample Case
 
