@@ -1,8 +1,8 @@
-### Nonparametric Statistics
+## Nonparametric Statistics
 
-#### Difference of parametric and nonparametric statistics
+### Difference of parametric and nonparametric statistics
 
-###### Pros
+##### Pros
 * Doesn't depend on shape of distributions or other assumptions (assumptions
 of distribution are actually pretty difficult to meet in many cases).
 * Easy to apply.
@@ -13,14 +13,14 @@ of distribution are actually pretty difficult to meet in many cases).
 actually met.
 * Needs some [approximation](https://en.wikipedia.org/wiki/Central_limit_theorem) in big sample cases.
 
-#### Why do we learn Nonparametric methods
+### Why do we learn Nonparametric methods
 We don't need to remember the formulas of those nonparametric statistical
 tests because most of them just work for a specific measurement and design.
 What really matters are those ideas behind different nonparametric methods, they
 help us jump out of the restrictions of classical distributions and think about
 the data in different ways.
 
-#### Some examples
+### Some examples
 
 ##### Goodness of fit: Kolmogorov–Smirnov test
 [Two Sample Case](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test#Two-sample_Kolmogorov%E2%80%93Smirnov_test)
