@@ -29,4 +29,4 @@ the data in different ways.
 [Fish Length Case](https://onlinecourses.science.psu.edu/stat414/node/319/)
 
 ##### Resampling: Permutation test & Boostrap
-[Fisher's Exact Test](http://www.mit.edu/~6.s085/notes/lecture5.pdf)
+[Fisher's Exact Test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test#Example)
