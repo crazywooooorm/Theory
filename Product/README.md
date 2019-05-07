@@ -1,3 +1,36 @@
+## Business Models
+
+### True Cases
+* WeWork
+  * Pros: The differences between WeWork and its competitors are basically: 1. It offers great utilities. 2. It creates the culture of community and keeps reminding people of this. 3. They use good analysis to find the best place in the cities.
+  * Cons: 1. WeWork's revenue is still based on the gap between rent paid by its customers and rent paid to landlord. It costs way more money to build those fancy utilities and design the space for community building, while not so many companies are willing to pay extra money on working space just for those features. 2. Many customers of WeWork are actually in the weakest position in case of an economic downturn, which is a big risk for WeWork.
+
+### Intro to Business Model
+* Customer Segments
+  * B2B or B2C?
+  * Mass market (Coca), niche market (Rolex) or multi-sided platform (Google)?
+  * For a multi-sided platform (Twitch), the segments can be viewers, streamers and advertisers (or game companies)
+
+* Value Propositions
+  * Why people choose your product (and are willing to pay)? Do the analysis for each user segment.
+
+* Channels (how to sell and deliver your product)
+  * Sales: sales person or buying online?
+  * Distribution: mail, self-pickup or deliver online?
+
+* Customer Relationships (everything happens before and after the sale)
+  * support desk, customer service group or community
+
+* Revenue Streams (main source of revenue)
+  * one-time, subscription, micropayments, licensing...
+
+* Key Resources
+  * physical (servers...), intellectual, human and financial
+  * own or rent
+
+
+## Hacking Product Manager Interviews
+
 ### Product Questions
 
 * Designing a Product
