@@ -5,6 +5,12 @@
   * Pros: The differences between WeWork and its competitors are basically: 1. It offers great utilities. 2. It creates the culture of community and keeps reminding people of this. 3. They use good analysis to find the best place in the cities.
   * Cons: 1. WeWork's revenue is still based on the gap between rent paid by its customers and rent paid to landlord. It costs way more money to build those fancy utilities and design the space for community building, while not so many companies are willing to pay extra money on working space just for those features. 2. Many customers of WeWork are actually in the weakest position in case of an economic downturn, which is a big risk for WeWork.
 
+* TransferWise
+  * Great value proposition, change the traditional transfer pattern by transforming the oversea transfer to national transfer.
+  * Launch provocative advertisements and different marketing campaigns.
+  * Created other services like international debit card.
+
+
 ### Intro to Business Model
 * Customer Segments
   * B2B or B2C?
@@ -27,6 +33,18 @@
 * Key Resources
   * physical (servers...), intellectual, human and financial
   * own or rent
+
+* Key Activities (activities the company needs to do to provide its value propositions)
+  * production, maintenance, marketing...
+
+* Key Partners
+  * suppliers, joint ventures, strategic alliances, coopetitions...
+
+* Cost structure
+  * fixed (rent, salaries...) & valuable (changes depending on the value)
+
+### Designing Business Models
+* Good companies can find the blue ocean by creating a new business pattern (tesla, spotify, uber, airbnb, netflix, ...) rather than just adding new features to products or reducing cost.
 
 
 ## Hacking Product Manager Interviews
