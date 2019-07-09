@@ -27,5 +27,15 @@
 * Uniform distribution
 * Exponential distribution: usually used to describe the lifetime or time between unlikely events, e.g. decay of the atom. Exponential distribution is the only memoryless distribution of continuous distributions （Geometric distribution is the only memoryless distribution of discrete distributions）, which means P(X>s+t|X>s)=P(X>t). Basically, memoryless property means if a machine's status doesn't change (which means, regardless of the depreciation, λ is same), the probability of it can run for t hours is same with the probability it can run (s+t) hours after it has already run for s hours.
 * Gamma distribution: distribution of the sum of several (α) Exponential distributions.
-* Beta distribution: very popular in bayesian statistics because of its great conjugate property. 
+* Beta distribution: very popular in bayesian statistics because of its great conjugate property.
 * Normal distribution -> Bivariate normal distribution -> Multivariate normal distribution  
+
+## Central Limit Theorem
+* Probability inequalities:
+  * Markov’s inequality -> Chebyshev’s inequality
+  * Cauchy-Schwarz inequality
+* Law of large numbers
+  * Weak law of large numbers: sample mean converges in probability to the true expectation. It can be proved by Chebyshev‘s inequality.
+  * Strong law of large numbers: sample mean converges to the true expectation almost surely.
+  * Converging in distribution is even weaker than converging in probability.
+* Central limit theorem: One step more than law of large numbers, it shows for iid (independent and identically distributed) random variables which has existing mean and variance, their properly normalized mean tends toward a normal distribution even if the original variables themselves are not normally distributed.
