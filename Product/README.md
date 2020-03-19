@@ -1,6 +1,6 @@
-## Business Models
+# Business Models
 
-### True Cases
+## True Cases
 * WeWork
   * Pros: The differences between WeWork and its competitors are basically: 1. It offers great utilities. 2. It creates the culture of community and keeps reminding people of this. 3. They use good analysis to find the best place in the cities.
   * Cons: 1. WeWork's revenue is still based on the gap between rent paid by its customers and rent paid to landlord. It costs way more money to build those fancy utilities and design the space for community building, while not so many companies are willing to pay extra money on working space just for those features. 2. Many customers of WeWork are actually in the weakest position in case of an economic downturn, which is a big risk for WeWork.
@@ -10,8 +10,17 @@
   * Launch provocative advertisements and different marketing campaigns.
   * Created other services like international debit card.
 
+* Airbnb
+  * Find the new customer segments, which is the vacation rental.
+  * Airbnb is actually not the first company find this customer segment, but won the market by its innovations on value propositions: review system. The system makes everything transparent, which helps hosts and guests build their trust on each other.
+  * Another value propositions include lower price (compare to hotels) and offer variety (different housing capacity and styles)
 
-### Intro to Business Model
+* Tesla
+  * Excellent value propositions, including beautiful designs, long range battery, supercharger network, all of them are the top in industry.
+  * The sales channel for Tesla is only their owned stores, no middle man, and usually open in shopping malls, which don't necessary make people directly buy it but increase their awareness. 
+
+
+## Intro to Business Model
 * Customer Segments
   * B2B or B2C?
   * Mass market (Coca), niche market (Rolex) or multi-sided platform (Google)?
@@ -43,13 +52,20 @@
 * Cost structure
   * fixed (rent, salaries...) & valuable (changes depending on the value)
 
-### Designing Business Models
+## Designing Business Models
 * Good companies can find the blue ocean by creating a new business pattern (tesla, spotify, uber, airbnb, netflix, ...) rather than just adding new features to products or reducing cost.
 
+### Innovations on value Propositions
+* The typical ways to create value propositions include: performance (usually driven by science and technology research), sustainability (environmentally friendly), customization and product system (like home automation)
+* Design is one of the most popular way to drive value proposition. Make product looks fancy (iphone, nest, dyson), make website looks better (use more images, put things on one page, make things bigger, no more bullet points) and make the mobile app better (simplified, visualized, emphasize the point at small screen)
+* Think about the whole member journey (online research -> store visit -> purchase -> customer service -> membership), make a good design for each step of the journey.
 
-## Hacking Product Manager Interviews
 
-### Product Questions
+
+
+# Hacking Product Manager Interviews
+
+## Product Questions
 
 * Designing a Product
   * Ask questions to understand the problem
@@ -73,7 +89,7 @@
   * How does it compare to the alternatives
   * How would you improve it
 
-### Case Questions
+## Case Questions
 * Useful Frameworks:
   * Customer Purchase Decision Making Process
   * Marketing Mix: product, price, promotion and place
