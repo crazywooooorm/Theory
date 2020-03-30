@@ -17,7 +17,7 @@
 
 * Tesla
   * Excellent value propositions, including beautiful designs, long range battery, supercharger network, all of them are the top in industry.
-  * The sales channel for Tesla is only their owned stores, no middle man, and usually open in shopping malls, which don't necessary make people directly buy it but increase their awareness. 
+  * The sales channel for Tesla is only their owned stores, no middle man, and usually open in shopping malls, which don't necessary make people directly buy it but increase their awareness.
 
 
 ## Intro to Business Model
@@ -55,11 +55,32 @@
 ## Designing Business Models
 * Good companies can find the blue ocean by creating a new business pattern (tesla, spotify, uber, airbnb, netflix, ...) rather than just adding new features to products or reducing cost.
 
-### Innovations on value Propositions
+### Innovations on Value Propositions
 * The typical ways to create value propositions include: performance (usually driven by science and technology research), sustainability (environmentally friendly), customization and product system (like home automation)
 * Design is one of the most popular way to drive value proposition. Make product looks fancy (iphone, nest, dyson), make website looks better (use more images, put things on one page, make things bigger, no more bullet points) and make the mobile app better (simplified, visualized, emphasize the point at small screen)
 * Think about the whole member journey (online research -> store visit -> purchase -> customer service -> membership), make a good design for each step of the journey.
 
+### Customer Engagement
+* How to acquire first-time customers?
+  * Try for free, or allow refund (the refund rate is normally low)
+  * Gamification (e.g. online courses), motivating people to keep using the product
+  * Content marketing, publishing free useful content to attract customers' attention
+  * Referral, let customers bring new customers
+
+* How to keep and grow customers?
+  * Community building, organize events to make customers active
+  * Loyalty strategy, award system (collecting points for gifts)
+  * Customer service, easy access customer service (e.g. apple genius bar)
+  * Personalization, keep giving personalized recommendations to customers
+
+* Customer segments
+  * Find underserved customers, like the games for female, the construction toys for girls, and socializing bars for geeks/video game players.
+  * Create whole new customer segment from scratch, airbnb, tesla and impossible food.
+
+### Channels
+  * The more urgent your demand is, the more expensive the channel offering that service can be. That's why people are willing to pay for the vending machine or Amazon prime.
+  * AI is becoming a new sales channel, you can directly buy stuff from Amazon Alexa or Amazon dash button, the buying procedure is so simple and happens right after you have that demand.
+  
 
 
 
