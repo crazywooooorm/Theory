@@ -1,4 +1,16 @@
-## Choosing and Characterizing Metrics
+# Overview
+* Click-through rate is #clicks/#visits, and click-through probability is #unique user clicks/#unique user visits. When we focus more on usability of the button, we use click-through rate to measure the actual click actions; when we focus more on the effect that button leads people to next level, we use click-through probability.
+* In experiment design, significance level 'alpha' measures the the probability to make type I error (reject the null hypothesis when it is true); 'beta' measure s the probability to not to reject the null hypothesis when it is wrong. We don't want to make type I error, so typically pick alpha as 0.05. At the same time, we don't want beta to be too big, so typically we pick beta as 0.2, which means 0.8 power (also know as sensitivity). Usually alpha and beta is a trade-off, but we can make them both smaller by having a bigger sample size.
+* When we observe a difference between test and control is **statistically significant** (reject the null hypothesis under given significance level), but not **practically significant** (the difference is smaller than our practical effect size), then we actually don't want to launch the campaign because the effect size is smaller than we demand.
+
+# Policy and Ethics for Experiments
+* Four principles of IRB's ([institutional review board](https://en.wikipedia.org/wiki/Institutional_review_board))
+  * Risk: In an experiment, if the risk exceeds minimal risk (probability and magnitude of harm that a participant would encounter in normal daily life), then informed consent is required.
+  * Benefits: Know clearly what benefits might result from the study.
+  * Alternatives: Consider the alternatives participants have and how would that affect the experiment.
+  * Data sensitivity: How sensitive is the data and how would it be protected. Also, be clear about whether the data is identified (data collected with personally identifiable information), anonymous (data collected without any personally identifiable information) or pseudonymous (data collected with randomly generated id).
+
+# Choosing and Characterizing Metrics
 * Use funnel to show the structure of the stages of your experiment and define your metrics. The lower stage of the funnel is, the fewer people will be included.
 
 * Difficulties of the metrics come from:
@@ -25,7 +37,7 @@
   * Traffic: it is extremely important to send enough traffic to the experiment. There is no fixed amount that is considered best, but the general consensus in the A/B testing world is a minimum of 10.000 visits and at least 100 goal conversions.
 
 
-## Designing Experiment
+# Designing Experiment
 * Unit of diversion: unit of the subject of the experiment. Typical units of diversion includes: User id, Anonymous id (cookie), events, ip address and device id. Each unit has different consistency, we have to decide the unit we use based on the demand of the experiments. If the change will easily be noticed by user (which means user will have extra action based on that change), we should use cookie or user id as our unit as they are more consistent.
 
 * When unit of analysis is same with unit of diversion, the true variability is close to analytical estimate. Image if you focus on click rate, which the unit of analysis should be pageviews. But if we use user id as unit of diversion, those correlated observations (belong to same user) will be put in same test group, which affects the variability.
@@ -36,7 +48,7 @@
 
 * You wouldn't want to put all your traffic on one day, but let the duration cover more time (eg. both weekends and weekdays). On the other way, try small exposure at first to prevent possible risk (some change might cause severe result).
 
-## Analyzing Results
+# Analyzing Results
 * Sanity checks are necessary for analyzing experiments: Check invariants，Choose some metrics that will not change during during the experiments. Test the invariants, if there are some significant changes than we need to dig deeper on that.
 
 * Simpson's paradox： Rate is higher in one group than another group in each segment, but when aggregate all segments together the result is reversed. In this case it would be better to test in each segments.
