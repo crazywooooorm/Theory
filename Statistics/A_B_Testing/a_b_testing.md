@@ -12,24 +12,19 @@
 
 # Choosing and Characterizing Metrics
 * Use funnel to show the structure of the stages of your experiment and define your metrics. The lower stage of the funnel is, the fewer people will be included.
-
 * Difficulties of the metrics come from:
   * Too long to collect the data of that metric
   * Can't have access to the data
-
-* To get more data, we can:
-  * User experience research (UER): can go really deep to a small group of people
-  * Focus groups: larger participant base and focus on specific group
+* To get more data (to interpret your test results), you can:
+  * User experience research (UER): can go really deep to a small group of people, while the sample size is usually small
+  * Focus groups: larger participant base and focus on specific groups, it's like giving presentations to groups of your potential participants and ask for their feedback, but need to be careful about the risk of group think (some dominant thoughts are built among the group)
   * Surveys: contains the biggest participant base but the replies might not be reliable because people don't have to tell the truth and can be easily affected by the design of the survey
   * Check if any external data can help
   * Retrospective analysis to check how metrics work in history.
-
+* Sensitivity and Robustness: You want to choose a metric that has high sensitivity, that means the metric can pick up the change you care about. You also want the metric to be robust against changes you don’t care about. It means the metric doesn’t change a lot when nothing you’re interested happened. For example, mean has good sensitivity, but is not robust when there is some outliers; median is robust, but typically is not sensitive enough for some changes. 75% or 90% percentile might be a good metric with both sensitivity and robustness. Sensitivity and Robustness is a trade-off. A/A test is a good way to check robustness.
 * To get the confidential intervals of our concerned metric, we can:
   * Calculate the confidence interval based on the distribution (experimental) of the metrics
-  * Directly pick the observations based on percentile
-
-* Sensitivity and Robustness: You want to choose a metric that is has high sensitivity, that means the metric can pick up the change you care about. You also want the metric to be robust against changes you don’t care about. It means the metric doesn’t change a lot when nothing you’re interested happened. Sensitivity and Robustness is a trade-off. A/A test is a good way to check robustness.
-
+  * Directly use observed percentiles as confidence interval. It doesn't need assumptions of data distribution, so would be helpful for metrics like median.
 * A/A test: Tactic of using a testing tool to test two identical variations against each other. In order to make sure your A/A test is correctly set up you should pay attention to 4 main things:
   * Variation: both the control and the variation should be the exact same page. Even if minor differences are present, they might compromise the test results
   * Segmentation: make sure you send the same segment of traffic to both the control and variation. All other things being the same, sending different segments of traffic to your pages can result in a false positive.
