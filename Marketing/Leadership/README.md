@@ -1,0 +1,2 @@
+## Is money a good motivator?
+Money is more like a push motivator rather than a pull motivator, which means it can make people do something but wouldn't make people want to do something. Money works well when the salary is under a certain amount. Cutting money will definitely do harm to people's performance but increasing money doesn't necessarily improve people's performance. The motivating effect of money actually comes from the security or praise brought from money rather than money itself. In a word, money shouldn't be one of the top motivators in your mind.
