@@ -33,15 +33,12 @@
 
 
 # Designing Experiment
-* Unit of diversion: unit of the subject of the experiment. Typical units of diversion includes: User id, Anonymous id (cookie), events, ip address and device id. Each unit has different consistency, we have to decide the unit we use based on the demand of the experiments. If the change will easily be noticed by user (which means user will have extra action based on that change), we should use cookie or user id as our unit as they are more consistent.
-
-* When unit of analysis is same with unit of diversion, the true variability is close to analytical estimate. Image if you focus on click rate, which the unit of analysis should be pageviews. But if we use user id as unit of diversion, those correlated observations (belong to same user) will be put in same test group, which affects the variability.
-
-* Choose the right target for experiment. If the change only affects a small part of people but we take whole population to do the test, the result will be diluted and the change will be hard to have significant result.
-
-* Cohort can subset the population and only focus on those people we care.
-
+* Unit of diversion: unit of the subject of the experiment. Typical units of diversion includes: User id, Anonymous id (cookie), events, ip address and device id. Each unit has different consistency, we have to decide the unit we use based on the demand of the experiments. If the change will easily be noticed by user (which means user will have extra action based on that change), we should use cookie or user id as our unit since they are can offer consistent experience for the same user.
+* When unit of analysis is same with unit of diversion, the true variability is close to analytical estimate. Image if you focus on click rate, which the unit of analysis should be page views. But if we use user id as unit of diversion, those correlated observations (belong to same user) will be put in same test group, which affects the variability.
+* Choose the right target for experiment. If the change only affects a small part of people but we take whole population to do the test, the result will be diluted and the change will be hard to have significant result. Cohorts represents the subsets of population which will really be affected in the experiment. Focus on cohorts can make sure we fully estimate the effect of treatments.
 * You wouldn't want to put all your traffic on one day, but let the duration cover more time (eg. both weekends and weekdays). On the other way, try small exposure at first to prevent possible risk (some change might cause severe result).
+* Learning effect is something you also need to consider in the experiment. Some changes might not be observed by users for couple of days, so you need to make sure the experiment goes long enough to really catch users' behavior changes.
+
 
 # Analyzing Results
 * Sanity checks are necessary for analyzing experiments: Check invariants，Choose some metrics that will not change during during the experiments. Test the invariants, if there are some significant changes than we need to dig deeper on that.
