@@ -31,7 +31,6 @@
   * Goals: track the exact same goals for each page
   * Traffic: it is extremely important to send enough traffic to the experiment. There is no fixed amount that is considered best, but the general consensus in the A/B testing world is a minimum of 10.000 visits and at least 100 goal conversions.
 
-
 # Designing Experiment
 * Unit of diversion: unit of the subject of the experiment. Typical units of diversion includes: User id, Anonymous id (cookie), events, ip address and device id. Each unit has different consistency, we have to decide the unit we use based on the demand of the experiments. If the change will easily be noticed by user (which means user will have extra action based on that change), we should use cookie or user id as our unit since they are can offer consistent experience for the same user.
 * When unit of analysis is same with unit of diversion, the true variability is close to analytical estimate. Image if you focus on click rate, which the unit of analysis should be page views. But if we use user id as unit of diversion, those correlated observations (belong to same user) will be put in same test group, which affects the variability.
@@ -39,14 +38,9 @@
 * You wouldn't want to put all your traffic on one day, but let the duration cover more time (eg. both weekends and weekdays). On the other way, try small exposure at first to prevent possible risk (some change might cause severe result).
 * Learning effect is something you also need to consider in the experiment. Some changes might not be observed by users for couple of days, so you need to make sure the experiment goes long enough to really catch users' behavior changes.
 
-
 # Analyzing Results
 * Sanity checks are necessary for analyzing experiments: Check invariants，Choose some metrics that will not change during during the experiments. Test the invariants, if there are some significant changes than we need to dig deeper on that.
-
-* Simpson's paradox： Rate is higher in one group than another group in each segment, but when aggregate all segments together the result is reversed. In this case it would be better to test in each segments.
-
+* Simpson's paradox: Rate is higher in one group than another group in each segment, but when aggregate all segments together the result is reversed. The paradox comes from the different proportions of test/control split of each segment. In this case it would be better to test in each segments.
 * When we have too many variants, it is likely some metrics are just significant by chance. In this case, we can re-run the experiment again and again see if it stay as significant or not, or use some correction methods (Bonferroni correction) to correct the significance level we want.
-
 * Learning effect: When there’s a new change, in the beginning users may against the change or use the change a lot. But overtime, user behavior becomes stable, which is called plateau stage. The key thing to measure learning effect is time, but in reality you don’t have that much luxury of taking that much time to make a decision. Suggestion: run on a smaller group of users, for a longer period of time.
-
 * When drawing conclusions, you have to: first, understand your changes, know the reasons and intuitions behind those changes, and second, check the changes over time (many changes are not actually repeatable because of seasonalities or something else).
