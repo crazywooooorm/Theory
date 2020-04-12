@@ -9,3 +9,8 @@ Different [leadership styles](https://github.com/crazywooooorm/Theory/blob/maste
 
 ## How to choose the proper leadership style?
 It depends on [what type of employee](https://github.com/crazywooooorm/Theory/blob/master/Marketing/Leadership/Different_People_Type.pdf) you have. People lack of competence (knowledge and skills) need more instructions and people lack of motivation needs more ownership and trust. Also, you can decide what [control style](https://github.com/crazywooooorm/Theory/blob/master/Marketing/Leadership/Control_Styles.pdf) and how much [freedom](https://github.com/crazywooooorm/Theory/blob/master/Marketing/Leadership/Freedom_Ladder.pdf) you want to offer based on who they are.
+
+## So what exactly should a leader do?
+Leaders have [multiple types of task](https://github.com/crazywooooorm/Theory/blob/master/Marketing/Leadership/Regular_Management_Tasks.pdf): for team, leader has to build a strategy and plan for everything; for employee, leader has to motivate, support and monitor; for self, leader has to review and keep learning.
+
+ 
