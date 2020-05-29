@@ -78,5 +78,26 @@
   * Create whole new customer segment from scratch, airbnb, tesla and impossible food.
 
 ### Channels
-  * The more urgent your demand is, the more expensive the channel offering that service can be. That's why people are willing to pay for the vending machine or Amazon prime.
-  * AI is becoming a new sales channel, you can directly buy stuff from Amazon Alexa or Amazon dash button, the buying procedure is so simple and happens right after you have that demand.
+* The more urgent your demand is, the more expensive the channel offering that service can be. That's why people are willing to pay for the vending machine or Amazon prime.
+* AI is becoming a new sales channel, you can directly buy stuff from Amazon Alexa or Amazon dash button, the buying procedure is so simple and happens right after you have that demand.
+
+### Resources
+* Innovation on developing process:
+  * Let scientists instead of chef to design new food (impossible food)
+  * Co-creation with customer (DIY)
+  * Use data science instead of traditional industry knowledge to design products
+* Innovation on producing process:
+  * Automation, minimize the effort on those repeated tasks
+  * Standardization, make the standardization for tasks so the business can be expanded fast
+
+### Revenue
+* Change one-time purchase to subscription (membership)
+* Freemium and micropayments offer some free service (maybe with advertising) to all customers, but if they want to have advanced service, they need to pay for membership or some micropayments to upgrade.
+
+### Why people buy stuff?
+* Necessity: people always need food, housing, connections...
+* Loss aversion: people are more worried about losing something instead of not getting something, so once people get used to some product (locked-in), they can't avoid it anymore, like special charger design of apple or google drive.
+* Convenience: people can pay whatever to not thinking, they are willing to pay for services that can save their time (uber, amazon)
+
+
+This [channel](https://www.youtube.com/channel/UCLkq3HC2y2NPpyQzaeR9slA/videos) updates different business models for popular companies.
