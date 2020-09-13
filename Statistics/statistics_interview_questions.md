@@ -67,3 +67,25 @@
 ## 9. How do you handle missing data? What imputation techniques do you recommend?
 * If no big harm to power, just simply drop them
 * If we do want to impute them, try put those missing records in a separate category (instead of imputing them with a summary statistics and treating them as normal records)
+
+## 10. You have data on the durations of calls to a call center. Generate a plan for how you would code and analyze these data. Explain a plausible scenario for what the distribution of these durations might look like. How could you test, even graphically, whether your expectations are borne out?
+* Start with exploratory data analysis, check the basic summary statistics of the samples. Then we can use histogram or boxplot to visualize its distribution.
+* A possible guess about its duration is lognormal, so log(duration) should be close to a normal distribution, here are some ways to test for normal distribution:
+  * QQ plot: if the sample distribution is normal, qq plot would be close to a straight line (same quantile with normal)
+  * Kolmogorov Smirnov test: check the largest difference between empirical CDF and target CDF. Kolmogorov Smirnov test can also be used to check other distributions
+  * Shapiro-Wilk test: has more power than above, but only works for normal
+
+## 11. Explain likely differences between administrative datasets and datasets gathered from experimental studies. What are likely problems encountered with administrative data? How do experimental methods help alleviate these problems? What problem do they bring?
+* Advantages of administrative data:
+  * Large coverage of population
+  * Captures individuals who may not respond to surveys
+  * Regularly updated, allow consistent time-series to be built-up
+* Disadvantages of administrative data:
+  * Restricted to data collected for administrative purposes
+  * Quality issues (missing or error entries) because of lack of researcher control over content
+  * Possible data privacy issue
+
+## 12. You are compiling a report for user content uploaded every month and notice a spike in uploads in October. In particular, a spike in picture uploads. What might you think is the cause of this, and how would you test it?
+* Horizontally, check if the same phenomenon happened in any specific area, age group, or other demographic groups
+* Vertically, check if the same phenomenon happened in Sep or last Oct
+* Find a null hypothesis based on your guess, and design tests to check it
