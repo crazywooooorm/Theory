@@ -89,3 +89,41 @@
 * Horizontally, check if the same phenomenon happened in any specific area, age group, or other demographic groups
 * Vertically, check if the same phenomenon happened in Sep or last Oct
 * Find a null hypothesis based on your guess, and design tests to check it
+
+
+## 13. What is root cause analysis? How to identify a cause vs. a correlation? Give examples
+* Root cause analysis:
+  * Method of problem solving used for identifying the root causes or faults of a problem
+  * A factor is considered a root cause if removal of it prevents the final undesirable event from recurring
+* Causation Vs Correlation:
+  * Causation indicates one variable's change is caused by another variable, while correlation only implies the relation.
+  * In experiment design, we can use placebo to check if the treatment does cause the effect.
+
+## 14. What is causal inference and how to do it?
+* Causal inference:
+  * Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect.
+  * Try to estimate the Conditional Average Treatment Effect (CATE) or Individual Treatment Effect (ITE) from experimental or observational data.
+* T-learner
+* X-learner
+* R-learner
+* Causal Tree
+
+## 15. What is the Law of Large Numbers?
+* A theorem that describes the result of performing the same experiment a large number of times. It says that the sample mean, the sample variance and the sample standard deviation converge to what they are trying to estimate
+
+## 16. How do you calculate needed sample size?
+* Consider the way to calculate confidence interval. To make sure the sample is within certain interval (confidence interval) of true mean, the sample follows the formula: interval = z * s / sqrt(n), where z is score of normal distribution, s is standard deviation, n is sample size.
+
+## 17. When you sample, what bias are you inflicting?
+* Selection bias: An online survey about computer use is likely to attract people more interested in technology than in typical
+* Under coverage bias: Sample too few observations from a segment of population
+* Survivorship bias: Observations at the end of the study are a non-random set of those present at the beginning of the investigation; only successful companies are included in survey because failed ones don't exist any more
+
+## 18. How do you control for biases?
+* Choose a representative sample, preferably by a random method
+* Choose an adequate size of sample
+* Identify all confounding factors if possible, and include them as additional predictors in statistical analyses
+
+## 19. What are confounding variables?
+* Extraneous variable in a statistical model that correlates directly or inversely with both the dependent and the independent variable
+* The relationship between an independent variable and a dependent variable is estimated incorrectly if fails to account for the confounding factor
