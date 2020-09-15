@@ -103,10 +103,13 @@
 * Causal inference:
   * Causal inference is the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect.
   * Try to estimate the Conditional Average Treatment Effect (CATE) or Individual Treatment Effect (ITE) from experimental or observational data.
-* T-learner
-* X-learner
-* R-learner
-* Causal Tree
+* T-learner: Train two models separately for test and control groups, the treatment is estimated by difference between two models. One disadvantage is, the errors of two models will add up
+* S-learner: Use single model, treat treatment factor as a normal variable.
+* X-learner:
+  * X-learner is an extension of T-learner.
+  * After we have two models trained separately from test and control groups, we can estimated the difference between test people in control model, and difference between control people in test model
+  * sum up the two differences with weight (propensity score), then we get our CATE
+* Causal Tree: for a tree based model, change the cost function to maximize 'the treatment effect between test and control groups'
 
 ## 15. What is the Law of Large Numbers?
 * A theorem that describes the result of performing the same experiment a large number of times. It says that the sample mean, the sample variance and the sample standard deviation converge to what they are trying to estimate
@@ -127,3 +130,30 @@
 ## 19. What are confounding variables?
 * Extraneous variable in a statistical model that correlates directly or inversely with both the dependent and the independent variable
 * The relationship between an independent variable and a dependent variable is estimated incorrectly if fails to account for the confounding factor
+
+## 20. What are metrics commonly used in classification?
+* Recall / Sensitivity / True positive rate:
+  * TP/(TP + FN)
+  * High when FN (type 2 error) is low
+* Precision / Positive predictive value:
+  * TP/(TP + FP)
+  * High when FP (type 1 error) is low
+* Specificity / True negative rate:
+  * TN/(TN + FP)
+  * High when FP (type 1 error) is low
+* Accuracy:
+  * (TP + TN)/(TP + TN + FP + FN)
+  * High when FP and FN are low
+* ROC / AUC:
+  * ROC plot depicts sensitivity Vs FP rate (FP/(FP + TN)).
+  * AUC is the area under ROC curve.
+  * The perfect classifier should have AUC = 1, which means sensitivity is always 100% and FP rate is always 0.
+  * AUC is not sensitive to unbalanced data
+* F1-Score:
+  * 2*(precision*recall)/(precision+recall) = TP/(TP + 0.5*(FP + FN))
+  * Accuracy cares more about TP and TN, while if FN and FP is more important (e.g., in diagnosis of cancer, we need to minimize FN), F1-Score is a better metric to use. F1-Score is more used in unbalance data.
+
+## 21. Poisson distribution
+* Expresses the probability of a given number of events occurring in a fixed interval of time. For example, the number of patients arriving in an emergency room between 10 and 11 pm
+* Only one parameter in its pdf, which equals to its mean and variance
+* Poisson process is a memoryless stochastic point process; that an event has just occurred or that an event hasn't occurred in a long time give us no clue about the likelihood that another event will occur soon. 
