@@ -156,4 +156,10 @@
 ## 21. Poisson distribution
 * Expresses the probability of a given number of events occurring in a fixed interval of time. For example, the number of patients arriving in an emergency room between 10 and 11 pm
 * Only one parameter in its pdf, which equals to its mean and variance
-* Poisson process is a memoryless stochastic point process; that an event has just occurred or that an event hasn't occurred in a long time give us no clue about the likelihood that another event will occur soon. 
+* Poisson process is a memoryless stochastic point process; that an event has just occurred or that an event hasn't occurred in a long time give us no clue about the likelihood that another event will occur soon.
+
+## 22. You are running for office and your pollster polled hundred people. 56 of them claimed they will vote for you. Can you relax?
+* The distribution of how many people vote for you (x) is a binomial distribution, with E(X) = np, Var(x) = np(1-p)
+* If we focus on p, then E(p) = E(x/n) = p, variance = Var(x/n) = Var(x)/n^2 = p(1-p)/n
+* When n is big enough, the mean approximates to normal distribution
+* Confidence interval is p +- z * sqrt(p(1-p)/n). If null hypothesis is p = 0.5, then we can calculated the 95% confidence interval for p is [0.402, 0.598]. 0.56 is still not enough to draw a conclusion.
